@@ -1,24 +1,23 @@
-# # Задача 7_1.
-#
-# month = 15
-#
-# spring_months = [3, 4, 5]
-# summer_months = [6, 7, 8]
-# autumn_months = [9, 10, 11]
-# winter_months = [12, 1, 2]
-#
-# if month in spring_months:
-#     print("Весна")
-# elif month in summer_months:
-#     print("Лето")
-# elif month in autumn_months:
-#     print("Осень")
-# elif month in winter_months:
-#     print("Зима")
-# else:
-#     print("⚠ Некорректный номер месяца!")
+ Задача 7.1
 
-# Задача 7_2.
+ month = 15
+
+ spring_months = [3, 4, 5]
+ summer_months = [6, 7, 8]
+ autumn_months = [9, 10, 11]
+ winter_months = [12, 1, 2]
+ if month in spring_months:
+     print("Весна")
+ elif month in summer_months:
+    print("Лето")
+ elif month in autumn_months:
+    print("Осень")
+ elif month in winter_months:
+    print("Зима")
+ else:
+   print("⚠ Некорректный номер месяца!")
+
+Задача 7.2
 
 is_logged_in = True # пользователь вошел ли систему
 has_items_in_cart = True # в корзине присутствуют ли товары
@@ -37,7 +36,7 @@ is_first_order = False # это первый заказ?
 if has_order and (is_first_order or total_purchase >= min_purchase_for_discount):
     print("✔ Вы получаете скидку!")
 
-# Задача 7_3.
+#Задача 7.3
 
 number = 7
 
